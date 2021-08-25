@@ -9,8 +9,7 @@ Create date  : 2021/8/25 5:01 下午
 Description  :
 */
 
-// in
-func in(slice interface{}, elem interface{}) bool {
+func In(slice interface{}, elem interface{}) bool {
 	arrV := reflect.ValueOf(slice)
 	if arrV.Kind() == reflect.Slice {
 		for i := 0; i < arrV.Len(); i++ {

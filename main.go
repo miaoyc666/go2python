@@ -15,5 +15,6 @@ import (
 
 func main() {
 	numbers := []int{0,1,2,3}
-	fmt.Println(python.in(numbers, 1))
+	fmt.Println(python.In(numbers, 1))
+	fmt.Println(python.In(numbers, 5))
 }
