@@ -9,7 +9,7 @@ Description  :
 
 import (
 	"fmt"
-	"github.com/miaoyc1989/python2go/python"
+	"github.com/miaoyc666/go2python/python"
 )
 
 
